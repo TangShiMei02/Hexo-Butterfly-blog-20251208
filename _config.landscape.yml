@@ -1,0 +1,18 @@
+# _config.butterfly.yml
+
+# 站点信息（会覆盖 _config.yml 中的部分设置）
+author:
+  name: TangShiMei        # ← 这里改成你的名字
+  avatar: avatar: https://avatars.githubusercontent.com/u/225576299?v=4  # 可选：头像路径（需放在 source/img/ 下）
+  description: 前端探索者 | 技术记录员
+
+# 社交链接（可选）
+social:
+  github: https://github.com/TangShiMei02
+  # twitter: https://twitter.com/xxx
+
+# 菜单（可选）
+menu:
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Tags: /tags/ || fas fa-tags
