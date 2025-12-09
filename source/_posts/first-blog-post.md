@@ -4,9 +4,13 @@ title: 发表的第一篇Blog！！
 
 date: 2025-12-08 22:49:00
 
-tags: \[Hexo, Butterfly, 博客搭建]
+tags:
+  - Hexo
+  - Butterfly
+  - 博客搭建
 
-categories: \[记录]
+categories:
+  - 记录
 
 ---
 

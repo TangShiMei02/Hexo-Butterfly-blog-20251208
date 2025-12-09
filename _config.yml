@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
+title: TangShiMei的小空间
+subtitle: '这都被你发现了？！'
+description: '没有一点描述就是最大的没描述（骗你们的，其实我也不知道这里写啥好...略略略）'
+keywords: TangShiMei, 闲言碎语 ，小空间 ，吐槽
 author: TangShiMei
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -55,6 +55,8 @@ prismjs:
   line_number: true
   tab_replace: ''
 
+
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -64,14 +66,34 @@ index_generator:
   per_page: 10
   order_by: -date
 
+
+
+
+
+  # Force enable tag and category pages
+
+
+
+
+
+
+
+
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
 
+# Generate /tags/ and /categories/ overview pages
+
+
+
+
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
+
+
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -102,3 +124,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+
+
