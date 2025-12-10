@@ -610,19 +610,19 @@ comments:
   # 如果不需要评论功能，保持为空
   # 选择：Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 两个评论系统的格式：Disqus,Waline
-  use: Twikoo
+  use: ''
   # 按钮旁边显示评论系统名称
-  text: true
+  #text: true
   # 懒加载：评论系统将在评论元素进入浏览器视口时加载
   # 如果设置为 true，评论计数将无效
-  lazyload: true
+ # lazyload: false
   # 在文章顶部图片中显示评论计数
-  count: false
+ # count: false
   # 在主页显示评论计数
-  card_post_count: false
+ # card_post_count: false
   # Twikoo 配置
-  twikoo:
-    envId: https://tangshimei02.leleosd.top/
+ # twikoo:
+ #   envId: https://tangshimei02.leleosd.top/
 
 
 # Disqus 评论插件配置
