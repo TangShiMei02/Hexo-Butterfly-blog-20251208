@@ -14,13 +14,15 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  清单||fa fa-heartbeat:
+  页面||fa fa-compass:
+    时间轴: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+  娱乐||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     照片: /gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
+  留言板: /comments/ || far fa-comment-dots
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -61,7 +63,7 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 # 头像设置
 avatar:
@@ -83,33 +85,32 @@ index_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2ab
 archive_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2abd.jpg
 
 # 注意: 是标签页（单个标签），不是标签页面（所有标签）
-tag_img:
+tag_img: 
 
 # 标签页的横幅图片，可以为每个标签设置横幅图片
 # 格式:
 #  - 标签名: 图片链接
-tag_per_img:
+tag_per_img: 
 
 # 注意: 是分类页（单个分类），不是分类页面（所有分类）
-category_img:
+category_img: 
 
 # 分类页的横幅图片，可以为每个分类设置横幅图片
 # 格式:
 #  - 分类名: 图片链接
-category_per_img:
-
+category_per_img: 
 # 页脚的背景图片
 footer_img: false
 
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png)
 
 # 封面设置
 cover:
   # 是否禁用封面
-  index_enable: true
+  index_enable: false
   aside_enable: true
   archives_enable: true
   # 主页封面的位置
@@ -129,9 +130,9 @@ error_img:
 # 简单的 404 页面
 error_404:
   # 是否启用 404 页面
-  enable: false
+  enable: true
   # 404 页面的副标题
-  subtitle: 'Page Not Found'
+  subtitle: '这个页面有它自己的想法，溜走啦~~'
   # 404 页面的卡片背景图片
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -609,16 +610,20 @@ comments:
   # 如果不需要评论功能，保持为空
   # 选择：Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # 两个评论系统的格式：Disqus,Waline
-  use:
+  use: Twikoo
   # 按钮旁边显示评论系统名称
   text: true
   # 懒加载：评论系统将在评论元素进入浏览器视口时加载
   # 如果设置为 true，评论计数将无效
-  lazyload: false
+  lazyload: true
   # 在文章顶部图片中显示评论计数
   count: false
   # 在主页显示评论计数
   card_post_count: false
+  # Twikoo 配置
+  twikoo:
+    envId: https://tangshimei02.leleosd.top/
+
 
 # Disqus 评论插件配置
 # 官方文档：https://disqus.com/
@@ -1226,13 +1231,18 @@ structured_data: true
 # 是否启用 CSS 前缀
 css_prefix: true
 
+
+
 # Inject
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
+    
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+
+
 
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
