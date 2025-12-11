@@ -75,8 +75,11 @@ avatar:
 # 禁用所有横幅图片
 disable_top_img: false
 
-# 如果页面未设置横幅，则显示默认的横幅图片
-default_top_img:
+# 如果页面未设置横幅，则显示默认的横幅图片.这个横幅的意思是，只要任意一个页面
+# 没有设施顶部图，就把下面这个图片拿过去充当顶部图！！
+# 相当于是一个全局设置，都生效
+default_top_img: https://cdn.magicalapk.com/square/d777efb2-0cc0-4ff6-9ca1-9d5a808c0eea.jpg
+
 
 # 主页的横幅图片
 index_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2abd.jpg
@@ -84,13 +87,20 @@ index_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2ab
 # 归档页的横幅图片
 archive_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2abd.jpg
 
-# 注意: 是标签页（单个标签），不是标签页面（所有标签）
-tag_img: 
+
+
+# 注意: 是标签页（单个标签），不是标签页面（所有标签）   # 所有标签页的默认图（兜底）
+tag_img:  https://cdn.magicalapk.com/square/7214a46d-d871-4751-b4dd-b2f1e901305c.jpg
+
 
 # 标签页的横幅图片，可以为每个标签设置横幅图片
 # 格式:
 #  - 标签名: 图片链接
-tag_per_img: 
+# 为具体标签指定图片
+tag_per_img:
+  - Hexo: https://cdn.magicalapk.com/square/7214a46d-d871-4751-b4dd-b2f1e901305c.jpg
+#  - 技术: https://example.com/tech.jpg
+#  - 生活: https://example.com/life.jpg
 
 # 注意: 是分类页（单个分类），不是分类页面（所有分类）
 category_img: 
@@ -99,18 +109,22 @@ category_img:
 # 格式:
 #  - 分类名: 图片链接
 category_per_img: 
+#  - 博客：
+#  - 记录：
 # 页脚的背景图片
-footer_img: false
+footer_img: true
 
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png)
+# background: url(https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png)
+background: url(https://cdn.magicalapk.com/square/22817ee1-0b30-46ed-ba31-4c59e5df4934.jpg)
+
 
 # 封面设置
 cover:
   # 是否禁用封面
-  index_enable: false
+  index_enable: true
   aside_enable: true
   archives_enable: true
   # 主页封面的位置
@@ -118,8 +132,8 @@ cover:
   position: both
   # 当未设置封面时，显示默认封面
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-
+    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://cdn.magicalapk.com/square/d777efb2-0cc0-4ff6-9ca1-9d5a808c0eea.jpg
 # 替换损坏的图片
 error_img:
   # 友链页面的错误图片
@@ -298,18 +312,20 @@ noticeOutdate:
 footer:
   # 页脚导航栏配置
   nav:
-  owner:
+
+
+  owner: 
     # 是否启用所有者显示
     enable: true
     # 网站创建年份
-    since: 2019
+    since: 2025/12
   # 自定义文本
-  custom_text:
+  custom_text: 欢迎来到我的小空间，很高兴见到你们啊！
   # 主题和框架的版权声明
   copyright:
-    enable: true
+    enable: false
     # 显示版本号
-    version: true
+    version: false
 
 # --------------------------------------
 # 侧边栏设置
@@ -351,7 +367,7 @@ aside:
     # 是否显示公告卡片
     enable: true
     # 公告内容
-    content: This is my Blog
+    content: 欢迎大家来到这个小破“绽”！
   card_recent_post:
     # 是否显示最近文章卡片
     enable: true
@@ -422,7 +438,9 @@ aside:
     # 发佈日期与当前日期的时间差
     # 格式：Month/Day/Year Time 或 Year/Month/Day Time
     # 如果不启用此功能，请留空
-    runtime_date:
+    runtime_date: 2025/12/7 00:00:00
+      
+   
 
 # --------------------------------------
 # 右下角按钮设置
@@ -1233,14 +1251,21 @@ css_prefix: true
 
 
 
+
+
+
+
 # Inject
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
-inject:
-  head:
-    
+#inject:
+#  head:
+
     # - <link rel="stylesheet" href="/xxx.css">
-  bottom:
+#  bottom:
     # - <script src="xxxx"></script>
+
+
+
 
 
 
