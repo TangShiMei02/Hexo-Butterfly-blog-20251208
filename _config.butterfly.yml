@@ -17,7 +17,7 @@ menu:
   #search: /search/ || fas fa-search    #如果你想要显示搜索图标 换上     搜索: /search/ || fas fa-search       就可以了
   首页: / || fas fa-home
   页面||fa fa-compass:
-    时间轴: /archives/ || fas fa-archive
+    归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
   娱乐||fa fa-heartbeat:
@@ -645,11 +645,13 @@ comments:
   #text: true
   # 懒加载：评论系统将在评论元素进入浏览器视口时加载
   # 如果设置为 true，评论计数将无效
- # lazyload: false
+  #lazyload: false
   # 在文章顶部图片中显示评论计数
  # count: false
   # 在主页显示评论计数
  # card_post_count: false
+  per_page: true
+  
   # Twikoo 配置
 twikoo:
   envId: https://tangshimei02.leleosd.top/
@@ -1212,11 +1214,11 @@ instantpage: false
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false    # 是否启用 Lazyload
+  enable: true    # 是否启用 Lazyload
   native: false    # 使用浏览器的原生 lazyload 而不是 vanilla-lazyload    false=主题接管；true=浏览器原生懒加载
   field: site      # 指定使用 Lazyload 的范围 (site=全站生效 或 post=仅文章)  
   placeholder:     # 留空即可，用主题内置占位图
-  blur: false      # 先显示模糊小图，再清晰
+  blur: true      # 先显示模糊小图，再清晰
 
 # PWA
 # 参见 https://github.com/JLHwung/hexo-offline
@@ -1269,6 +1271,7 @@ inject:
   head:
     #- <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
+    #- <link rel="stylesheet" href="/css/custom-index.css">   #首页文章封面预览图左右交替
   bottom:
    # - <script src="/img/bg/bg.js"></script>       #只用小新那个图片
     - <script src="/img/bg/theme-bg.js"></script>  # 这个是白天黑天不一张图的时候启用的
