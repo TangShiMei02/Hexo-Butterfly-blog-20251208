@@ -1271,7 +1271,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
    # - <script src="/img/bg/bg.js"></script>       #只用小新那个图片
-    - <script src="/img/bg/theme-bg.js"></script>   这个是白天黑天不一张图的时候启用的
+    - <script src="/img/bg/theme-bg.js"></script>  # 这个是白天黑天不一张图的时候启用的
     - <script src="/js/day-night-transition.js"></script>     #  白天黑夜过度动画 文件在themes/butterfly/source/js/day-night-transition.js
     # - <script src="xxxx"></script>
 
