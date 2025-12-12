@@ -249,7 +249,7 @@ post_copyright:
   # 是否进行文章 URL 解码
   decode: false
   # 作者链接
-  author_href:
+  author_href: https://github.com/TangShiMei02
   # 许可证类型
   license: CC BY-NC-SA 4.0
   # 许可证链接
@@ -1262,8 +1262,8 @@ inject:
     #- <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    #- <script src="/img/bg/bg.js"></script>
-    - <script src="/img/bg/theme-bg.js"></script>
+   # - <script src="/img/bg/bg.js"></script>       #只用小新那个图片
+    - <script src="/img/bg/theme-bg.js"></script>   这个是白天黑天不一张图的时候启用的
     # - <script src="xxxx"></script>
 
 
