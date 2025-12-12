@@ -52,11 +52,11 @@ code_blocks:
 
 # 社交媒体链接
 # 格式:
-#   icon: 链接 || 描述 || 颜色
+#   icon: 链接 || 描述 || 颜色                                     
 social:
   fab fa-github: https://github.com/TangShiMei02 || Github || "#hdhfbb"
-  fas fa-envelope: mailto:yangqinhao1101@163.com || Email || "#000000"
-  fas fa-brands fa-qq: https://res.abeim.cn/api/qq/?qq=2244182951
+  fas fa-envelope: mailto:yangqinhao1101@163.com || Email || "#hdhfbb"     #000000
+  fab fa-qq: https://res.abeim.cn/api/qq/?qq=2244182951 || QQ || "#hdhfbb"
 
 # --------------------------------------
 # 图片设置
@@ -1257,11 +1257,13 @@ css_prefix: true
 
 # Inject
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
-#inject:
-#  head:
-
+inject:
+  head:
+    #- <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
-#  bottom:
+  bottom:
+    #- <script src="/img/bg/bg.js"></script>
+    - <script src="/img/bg/theme-bg.js"></script>
     # - <script src="xxxx"></script>
 
 

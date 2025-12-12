@@ -1,0 +1,14 @@
+/* 文章页、侧边栏、首页卡片 */
+.layout_post,
+#aside_content,
+.recent-post-item,
+.card-widget {
+  background: rgba(255,255,255,0.78) !important;
+  border-radius: 8px;          /* 顺便圆角 */
+}
+
+/* 文字对比度 */
+.post-content,
+.card-content {
+  color: #333;
+}
