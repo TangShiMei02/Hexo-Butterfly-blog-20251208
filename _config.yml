@@ -128,3 +128,9 @@ deploy:
 
 
 
+# 本地搜索索引配置
+search:
+  path: search.json
+  field: post      # post = 只索引文章；all = 文章+页面+标签
+  content: true    # true = 索引全文；false = 只索引标题/摘要
+  format: json

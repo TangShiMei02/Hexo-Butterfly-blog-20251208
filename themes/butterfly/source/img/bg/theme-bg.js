@@ -1,3 +1,4 @@
+/* 白天/夜间随机背景切换 + 太阳↔月亮过渡 | Butterfly 专用 */
 (function(){
   const LIGHT_TOTAL = 2;            // light-N 的张数
   const DARK_TOTAL  = 1;            // dark-N  的张数
@@ -26,7 +27,21 @@
   /* 初始执行 */
   setBg();
 
-  /* 监听主题切换按钮（Butterfly 自带按钮会改 data-theme）*/
-  const ob = new MutationObserver(setBg);
-  ob.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  /* 监听主题切换：先播放过渡，再换背景 */
+  new MutationObserver(() => {
+    if (typeof playDayNightTransition === 'function') playDayNightTransition();
+    setTimeout(() => setBg(), 1000);
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 })();
+
+
+
+
+
+
+
+
+
+
+
+
