@@ -202,7 +202,7 @@ subtitle:                 # 是否启用副标题
   typeSpeed: 120         # 打一个字耗时(ms) 越小越快
   backSpeed: 800         # 删一个字耗时(ms)
   startDelay: 3000       # 开始打字前等待
-  backDelay: 3000       # 整句停留多久后开始回删
+  backDelay: 5000       # 整句停留多久后开始回删
 
   # 自定义 typed.js
   # https://github.com/mattboldt/typed.js/#customization
