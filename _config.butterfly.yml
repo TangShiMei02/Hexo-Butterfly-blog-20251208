@@ -202,7 +202,7 @@ subtitle:                 # 是否启用副标题
   typeSpeed: 120         # 打一个字耗时(ms) 越小越快
   backSpeed: 800         # 删一个字耗时(ms)
   startDelay: 3000       # 开始打字前等待
-  backDelay: 5000       # 整句停留多久后开始回删
+  backDelay: 3000       # 整句停留多久后开始回删
 
   # 自定义 typed.js
   # https://github.com/mattboldt/typed.js/#customization
@@ -214,7 +214,7 @@ subtitle:                 # 是否启用副标题
   # source: 1 - hitokoto.cn
   # source: 2 - yijuzhan.com
   # source: 3 - jinrishici.com
-  source: 1      
+  source: 1    
   # 如果关闭打字机效果，副标题将仅显示 sub 的第一行内容
   sub:
     - 原来这世上真的存在来不及，来不及好好说话，来不及好好道别，当我终于开始痛哭的时候，一切都回不去了。———— 《你也走了很远的路吧》
@@ -1278,6 +1278,10 @@ inject:
     - <script src="/js/day-night-transition.js"></script>     #  白天黑夜过度动画 文件在themes/butterfly/source/js/day-night-transition.js
     # - <script src="xxxx"></script>
 
+
+# 下面是一言 hitokoto的配置  不想要了可以删 
+
+# 上面是一言 hitokoto的配置  不想要了可以删 
 
 
 
