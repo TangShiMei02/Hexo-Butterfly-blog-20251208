@@ -661,6 +661,8 @@ comments:
     lazyload: true
     # 使用国内 CDN（加速）
     cdn: https://npm.elemecdn.com/twikoo@latest/dist/twikoo.all.min.js
+    # 👇 关键：替换头像源为国内镜像
+    avatar: https://cravatar.cn/avatar/%md5%?d=mp&s=160
 
 
 
