@@ -653,8 +653,18 @@ comments:
   per_page: true
   
   # Twikoo 配置
-twikoo:
-  envId: https://tangshimei02.leleosd.top/
+  twikoo:
+    envId: https://tangshimei02.leleosd.top/
+
+
+    # 开启懒加载（关键！）   #下面这一段坏了就删掉  
+    lazyload: true
+    # 使用国内 CDN（加速）
+    cdn: https://npm.elemecdn.com/twikoo@latest/dist/twikoo.all.min.js
+
+
+
+  
   #region:          # 区域
   #visitor: false   # 使用 Twikoo 的访客计数作为页面的访客量
   #option:          # 其他可选配置

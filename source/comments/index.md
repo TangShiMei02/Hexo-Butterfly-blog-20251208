@@ -1,14 +1,6 @@
 ---
 title: 留言板
-comments: false
+date: 2025-12-01
+type: comments
+comments: true   # ← 必须为 true！
 ---
-
-<div id="twikoo"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.23/dist/twikoo.all.min.js"></script>
-<script>
-  twikoo.init({
-    envId: 'https://tangshimei02.leleosd.top/',
-    el: '#twikoo'
-  });
-</script>
