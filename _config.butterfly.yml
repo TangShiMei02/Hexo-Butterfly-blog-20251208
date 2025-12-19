@@ -24,6 +24,7 @@ menu:
     音乐: /music/ || fas fa-music
     照片: /gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
+    番剧: /anime/ || fas fa-heart
   留言板: /comments/ || far fa-comment-dots
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
@@ -71,7 +72,7 @@ favicon: /img/favicon.ico
 # 头像设置
 avatar:
   # 头像图片链接
-  img: https://avatars.githubusercontent.com/u/225576299?v=4
+  img: /img/avatar.jpg   #  这个是拉取的GitHub头像链接，但会拖慢加载速度。https://avatars.githubusercontent.com/u/225576299?v=4
   # 是否启用头像效果
   effect: false
 
@@ -132,7 +133,7 @@ cover:
   archives_enable: true
   # 主页封面的位置
   # 选择: left/right/both
-  position: both
+  cover_position: both
   # 当未设置封面时，显示默认封面
   default_cover:
     - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
@@ -226,7 +227,7 @@ subtitle:                 # 是否启用副标题
 # 首页文章佈局
 # 1: 行佈局
 # 2: 列布局
-index_layout: 1
+index_layout: 1     #  修改文章封面图是要用2 列布局吗？？？  2025/12/19
 
 # 在首页显示文章简介
 # 1: 描述
@@ -373,7 +374,7 @@ aside:
       # 按钮图标
       icon: fab fa-github
       # 按钮文本
-      text: Follow Me
+      text: 来关注我吧！
       # 按钮链接
       link: https://github.com/TangShiMei02
   card_announcement:
@@ -664,6 +665,8 @@ comments:
     cdn: https://npm.elemecdn.com/twikoo@latest/dist/twikoo.all.min.js
     # 👇 关键：替换头像源为国内镜像
     avatar: https://cravatar.cn/avatar/%md5%?d=mp&s=160
+
+    placeholder: /img/loading.gif   # 可选：加载占位图
 
 
 
@@ -1285,10 +1288,14 @@ inject:
     #- <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
     #- <link rel="stylesheet" href="/css/custom-index.css">   #首页文章封面预览图左右交替
+    #  - <link rel="stylesheet" href="/css/loader.css">   # 加载动画  坏了可删  文件地址 D:\_mycode\Hexo-Butterfly主题blog\Hexo-Butterfly-blog-20251208\source\css\loader.css
+
   bottom:
    # - <script src="/img/bg/bg.js"></script>       #只用小新那个图片
-    - <script src="/img/bg/theme-bg.js"></script>  # 这个是白天黑天不一张图的时候启用的
-    - <script src="/js/day-night-transition.js"></script>     #  白天黑夜过度动画 文件在themes/butterfly/source/js/day-night-transition.js
+    #  - <script src="/img/bg/theme-bg.js"></script>  # ← 负责根据 data-theme 切换背景图  这个是白天黑天不一张图的时候启用的
+    - <script src="/js/day-night-transition.js"></script>     #  ← 负责太阳/月亮动画  白天黑夜过度动画 文件在themes/butterfly/source/js/day-night-transition.js
+    #  - <script src="/js/loader.js"></script>   #  加载动画，坏了可删    文件地址D:\_mycode\Hexo-Butterfly主题blog\Hexo-Butterfly-blog-20251208\source\js\loader.js
+
     # - <script src="xxxx"></script>
 
 

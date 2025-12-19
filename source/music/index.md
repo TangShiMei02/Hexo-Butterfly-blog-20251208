@@ -1,8 +1,9 @@
 ---
-title: music
+title: 音乐
 date: 2025-12-09 13:24:40
 type: music
 comments: false
+
 ---
 
 
