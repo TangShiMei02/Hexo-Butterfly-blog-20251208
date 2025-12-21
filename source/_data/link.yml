@@ -1,5 +1,5 @@
-- class_name: 友情链接
-  class_desc: 那些人，那些事
+- class_name: 技术支持
+  class_desc: 大佬太牛啦！！👇
   link_list:
     - name: Hexo 官网
       link: https://hexo.io/zh-CN
@@ -11,7 +11,17 @@
       avatar: https://butterfly.js.org/img/avatar.png
       descr: 简洁美观的 Hexo 主题
 
-- class_name: 网站
+- class_name: 友情链接
+  class_desc: 这里是交到的friends！！
+  link_list:
+    - name: mccsjs
+      link: https://seln.cn/
+      avatar: https://seln.cn/img/ico.jpg
+      descr: 点一盏灯，等一个迷路的夜🍁🍁🍁
+      siteshot: https://seln.cn/img/a.jpg
+    
+    
+- class_name: 推荐的网站
   class_desc: 值得推荐的网站
   link_list:
     - name: GitHub
