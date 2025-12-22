@@ -72,7 +72,7 @@ favicon: /img/favicon.ico
 # 头像设置
 avatar:
   # 头像图片链接
-  img: /img/avatar.jpg   #  这个是拉取的GitHub头像链接，但会拖慢加载速度。https://avatars.githubusercontent.com/u/225576299?v=4
+  img: https://cdn.magicalapk.com/square/cf30a582-3d39-4321-8dfd-666957b092c0.jpg  #/img/avatar.jpg   #  这个是拉取的GitHub头像链接，但会拖慢加载速度。https://avatars.githubusercontent.com/u/225576299?v=4
   # 是否启用头像效果
   effect: false
 
@@ -128,16 +128,16 @@ background: url(https://cdn.magicalapk.com/square/22817ee1-0b30-46ed-ba31-4c59e5
 # 封面设置
 cover:
   # 是否禁用封面
-  index_enable: true
+  index_enable: true  # true  # 2025/12/22 改  把true删了
   aside_enable: true
   archives_enable: true
   # 主页封面的位置
   # 选择: left/right/both
   position: both
-  # 当未设置封面时，显示默认封面
+  # 当未设置封面时，显示默认封面                                           # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+                                                                        # - https://cdn.magicalapk.com/square/d777efb2-0cc0-4ff6-9ca1-9d5a808c0eea.jpg
   default_cover:
-    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - https://cdn.magicalapk.com/square/d777efb2-0cc0-4ff6-9ca1-9d5a808c0eea.jpg
+
 # 替换损坏的图片
 error_img:
   # 友链页面的错误图片
@@ -224,10 +224,15 @@ subtitle:                 # 是否启用副标题
     - 人最怕的是相遇，最难的是别离，因为一场邂逅就是翻山越岭的回忆。故事的开头总是这样，适逢其会， 猝不及防；故事的结尾总是这样花开两朵， 天各一方。 ———— 《从你的全世界路过》
 
 
-# 首页文章佈局
-# 1: 行佈局
-# 2: 列布局
-index_layout: 1     #  修改文章封面图是要用2 列布局吗？？？  2025/12/19
+# 首页文章布局方式
+# 1: 封面图在左，信息在右
+# 2: 封面图在右，信息在左
+# 3: 封面图与信息左右交替排列
+# 4: 封面图在上，信息在下
+# 5: 信息直接显示在封面图上
+# 6: 瀑布流布局 - 封面图在上，信息在下
+# 7: 瀑布流布局 - 信息直接显示在封面图上
+index_layout: 3     #  修改文章封面图是要用2 列布局吗？？？  2025/12/19
 
 # 在首页显示文章简介
 # 1: 描述
@@ -1123,7 +1128,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # 如果不需要灯箱效果，请留空
-lightbox:
+lightbox: fancybox
 
 # --------------------------------------
 # 标签外挂设置
