@@ -133,7 +133,7 @@ cover:
   archives_enable: true
   # 主页封面的位置
   # 选择: left/right/both
-  cover_position: both
+  position: both
   # 当未设置封面时，显示默认封面
   default_cover:
     - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
