@@ -29,7 +29,7 @@
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
 
 - class_name: 技术支持
-  class_desc: 大佬太牛啦！！👇
+  #class_desc:
   link_list:
 
     - name: GitHub
