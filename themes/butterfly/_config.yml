@@ -16,7 +16,7 @@ menu:
 
   #search: /search/ || fas fa-search    #如果你想要显示搜索图标 换上     搜索: /search/ || fas fa-search       就可以了
   首页: / || fas fa-home
-  页面||fa fa-compass:
+  文章||fa fa-compass:
     归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
@@ -24,8 +24,11 @@ menu:
     音乐: /music/ || fas fa-music
     照片: /gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
-  留言板: /comments/ || far fa-comment-dots
-  友链: /link/ || fas fa-link
+    番剧: /anime/ || fas fa-heart
+  社交||fas fa-user-friends:
+    留言板: /comments/ || far fa-comment-dots
+    友链: /link/ || fas fa-link
+  说说: /ramblings/ || fas fa-comment
   关于: /about/ || fas fa-heart
 
 # --------------------------------------
@@ -87,12 +90,11 @@ default_top_img: https://cdn.magicalapk.com/square/d777efb2-0cc0-4ff6-9ca1-9d5a8
 index_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2abd.jpg
 
 # 归档页的横幅图片
-archive_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2abd.jpg
-
+archive_img: https://cdn.magicalapk.com/square/76d8a089-647d-4bb1-9110-dbc1cb8307a5.jpg
 
 
 # 注意: 是标签页（单个标签），不是标签页面（所有标签）   # 所有标签页的默认图（兜底）
-tag_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2abd.jpg
+tag_img: https://cdn.magicalapk.com/square/76d8a089-647d-4bb1-9110-dbc1cb8307a5.jpg
 
 
 # 标签页的横幅图片，可以为每个标签设置横幅图片
@@ -100,7 +102,7 @@ tag_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2abd.
 #  - 标签名: 图片链接
 # 为具体标签指定图片
 tag_per_img:
-  - Hexo: https://cdn.magicalapk.com/square/5361c65f-2328-46b9-98f1-77fe667f00eb.jpg
+#  - Hexo: https://cdn.magicalapk.com/square/5361c65f-2328-46b9-98f1-77fe667f00eb.jpg
 #  - 技术: https://example.com/tech.jpg
 #  - 生活: https://example.com/life.jpg
 

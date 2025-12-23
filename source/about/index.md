@@ -2,6 +2,7 @@
 title: 关于我
 date: 2025-12-09 13:24:21
 comments: true
+top_img: transparent
 ---
 
 

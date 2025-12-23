@@ -2,7 +2,7 @@
 title: 照片
 date: 2025-12-09 13:24:46
 comments: false
-
+top_img: transparent
 
 
 ---
