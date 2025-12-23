@@ -127,6 +127,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+butterfly:
+  custom_css:
+    - css/custom-every-pages-footer.css
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

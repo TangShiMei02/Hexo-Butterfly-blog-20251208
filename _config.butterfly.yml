@@ -94,7 +94,7 @@ archive_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2
 
 
 # 注意: 是标签页（单个标签），不是标签页面（所有标签）   # 所有标签页的默认图（兜底）
-tag_img:  https://cdn.magicalapk.com/square/7214a46d-d871-4751-b4dd-b2f1e901305c.jpg
+tag_img: https://cdn.magicalapk.com/square/efcd788c-20c2-4cf1-acfb-5902915d2abd.jpg
 
 
 # 标签页的横幅图片，可以为每个标签设置横幅图片
@@ -102,7 +102,7 @@ tag_img:  https://cdn.magicalapk.com/square/7214a46d-d871-4751-b4dd-b2f1e901305c
 #  - 标签名: 图片链接
 # 为具体标签指定图片
 tag_per_img:
-  - Hexo: https://cdn.magicalapk.com/square/7214a46d-d871-4751-b4dd-b2f1e901305c.jpg
+  - Hexo: https://cdn.magicalapk.com/square/5361c65f-2328-46b9-98f1-77fe667f00eb.jpg
 #  - 技术: https://example.com/tech.jpg
 #  - 生活: https://example.com/life.jpg
 
@@ -115,13 +115,13 @@ category_img:
 category_per_img: 
 #  - 博客：
 #  - 记录：
-# 页脚的背景图片
-footer_img: true
 
+# 页脚的背景图片
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
 # background: url(https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png)
+footer_img: true
 background: url(https://cdn.magicalapk.com/square/22817ee1-0b30-46ed-ba31-4c59e5df4934.jpg)
 
 
@@ -134,9 +134,10 @@ cover:
   # 主页封面的位置
   # 选择: left/right/both
   position: both
-  # 当未设置封面时，显示默认封面                                           # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-                                                                        # - https://cdn.magicalapk.com/square/d777efb2-0cc0-4ff6-9ca1-9d5a808c0eea.jpg
+  # 当未设置封面时，显示默认封面                                           # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg# - https://cdn.magicalapk.com/square/d777efb2-0cc0-4ff6-9ca1-9d5a808c0eea.jpg
   default_cover:
+    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://cdn.magicalapk.com/square/d777efb2-0cc0-4ff6-9ca1-9d5a808c0eea.jpg
 
 # 替换损坏的图片
 error_img:

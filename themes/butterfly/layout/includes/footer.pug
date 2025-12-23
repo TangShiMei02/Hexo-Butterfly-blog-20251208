@@ -15,6 +15,7 @@ if nav
                   a(href=url_for(subitem.url), target='_blank' title=subitem.title)= subitem.title
                 else if subitem.title
                   div!= subitem.title
+
 .footer-other
   .footer-copyright
     if owner.enable
@@ -25,6 +26,33 @@ if nav
           != `&copy;&nbsp;${sinceYear} - ${currentYear} By ${config.author}`
         else
           != `&copy;&nbsp;${currentYear} By ${config.author}`
+
+    // 👇 在这里插入运行时间显示
+    .footer-run-time
+      span#runtime 加载中...
+      script.
+        function showRuntime() {
+          // 建站时间：2025年12月7日 00:00:00
+          const startTime = new Date("2025-12-07T00:00:00");
+          const now = new Date();
+          const diff = now - startTime;
+
+          if (diff < 0) {
+            document.getElementById('runtime').innerHTML = '网站尚未上线';
+            return;
+          }
+
+          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+          document.getElementById('runtime').innerHTML = `本站居然坚持了👉 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
+        }
+        // 页面加载后立即显示，并每秒更新
+        showRuntime();
+        setInterval(showRuntime, 1000);
+
     if copyright.enable
       - const v = copyright.version ? getVersion() : false
       span.framework-info
@@ -35,5 +63,6 @@ if nav
         span.footer-separator |
         span= _p('footer.theme') + ' '
         a(href='https://github.com/jerryc127/hexo-theme-butterfly')= `Butterfly${ v ? ' ' + v.theme : '' }`
+
   if theme.footer.custom_text
     .footer_custom_text!= theme.footer.custom_text
