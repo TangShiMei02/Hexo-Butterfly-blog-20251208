@@ -1,6 +1,42 @@
+- class_name: 友情链接
+  class_desc: 
+    - 这里是交到的friends！！
+    - 不分先后，都是friends！
+    
+  link_list:
+    - name: mccsjs
+      link: https://seln.cn/
+      avatar: https://seln.cn/img/ico.jpg
+      descr: 点一盏灯，等一个迷路的夜🍁🍁🍁
+      siteshot: https://seln.cn/img/a.jpg
+
+    - name: leleo886
+      link: https://www.leleo.top/
+      avatar: https://avatars.githubusercontent.com/u/106381093?v=4
+      descr: hello，你好啊！
+      # siteshot: https://avatars.githubusercontent.com/u/106381093?v=4
+
+    - name: 阿叶Ayeez
+      link: https://blog.ayeez.cn/
+      avatar: https://avatars.githubusercontent.com/u/231453001?v=4         
+      descr: 记录自己的学习历程，记录自己的美好生活
+      #siteshot: 
+
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+
 - class_name: 技术支持
   class_desc: 大佬太牛啦！！👇
   link_list:
+
+    - name: GitHub
+      link: https://github.com/
+      avatar: https://cdn.magicalapk.com/square/9496338369921456.jpg  #https://github.githubassets.com/favicons/favicon.png
+      descr: 全球最大的代码托管平台
+
     - name: Hexo 官网
       link: https://hexo.io/zh-CN
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
@@ -11,32 +47,28 @@
       avatar: https://butterfly.js.org/img/avatar.png
       descr: 简洁美观的 Hexo 主题
 
-- class_name: 友情链接
-  class_desc: 这里是交到的friends！！
-  link_list:
-    - name: mccsjs
-      link: https://seln.cn/
-      avatar: https://seln.cn/img/ico.jpg
-      descr: 点一盏灯，等一个迷路的夜🍁🍁🍁
-      siteshot: https://seln.cn/img/a.jpg
+
     
     
-- class_name: 推荐的网站
-  class_desc: 值得推荐的网站
-  link_list:
-    - name: GitHub
-      link: https://github.com/
-      avatar: https://github.githubassets.com/favicons/favicon.png
-      descr: 全球最大的代码托管平台
-    - name: Youtube
-      link: https://www.youtube.com/
-      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
-      descr: 视频网站
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
-      descr: 中国最大社交分享平台
-    - name: Twitter
-      link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+#- class_name: 推荐的网站
+#  class_desc: 值得推荐的网站
+#  link_list:
+#    - name: GitHub
+#      link: https://github.com/
+#      avatar: https://cdn.magicalapk.com/square/9496338369921456.jpg  #https://github.githubassets.com/favicons/favicon.png
+#      descr: 全球最大的代码托管平台
+
+#    - name: Youtube
+#      link: https://www.youtube.com/
+#      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+#      descr: 视频网站
+
+#    - name: Weibo
+#      link: https://www.weibo.com/
+#      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+#      descr: 中国最大社交分享平台
+
+   # - name: Twitter
+   #  link: https://twitter.com/
+   #   avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+   #   descr: 社交分享平台
