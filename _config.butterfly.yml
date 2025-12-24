@@ -4,7 +4,7 @@
 
 nav:
   # 导航栏 Logo 图片
-  logo: https://cdn.magicalapk.com/square/cf30a582-3d39-4321-8dfd-666957b092c0.jpg
+  logo: /img/favicon.ico
   # 是否显示标题
   display_title: true
   # 是否在滚动时显示文章标题
@@ -553,7 +553,7 @@ copy:
 # 需要安装 hexo-wordcount 插件
 wordcount:
   # 是否启用字数统计
-  enable: false
+  enable: true
   # 在文章元信息中显示字数统计
   post_wordcount: true
   # 在文章元信息中显示閲读时间
@@ -997,7 +997,7 @@ mask:
 # 加载动画
 preloader:
   # 是否启用加载动画
-  enable: false
+  enable: true
   # 资源
   # 1. 全屏加载
   # 2. 进度条
@@ -1011,12 +1011,12 @@ enter_transitions: true
 # 默认显示模式 - light (默认) / dark
 display_mode: light
 
-# 美化文章内容的配置
+# 美化文章内容的配置   美化显示
 beautify:
   # 是否启用美化
-  enable: false
+  enable: post
   # 指定美化的范围 (site 或 post)
-  field: post
+  field: site
   # 指定标题前缀图标，如 '\f0c1'
   title-prefix-icon:
   # 指定标题前缀图标的颜色，如 '#F47466'
