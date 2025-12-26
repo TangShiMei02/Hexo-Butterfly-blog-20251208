@@ -656,7 +656,7 @@ comments:
   
   # Twikoo 配置
 twikoo:
-  envId: https://tangshimei02.leleosd.top/
+  envId: https://tangshimei02.leleosd.top/                  #mccsjs大佬弄得是  https://twikoo.leleosd.top/
   #region:          # 区域
   #visitor: false   # 使用 Twikoo 的访客计数作为页面的访客量
   #option:          # 其他可选配置
