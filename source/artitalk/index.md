@@ -1,6 +1,6 @@
 ---
 title: 闲言碎语
-comments: false
+comments: true
 top_img: transparent
 ---
 
