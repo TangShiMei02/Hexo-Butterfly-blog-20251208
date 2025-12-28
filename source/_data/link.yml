@@ -2,6 +2,13 @@
   class_desc: 
     - 这里是交到的friends！！
     - 不分先后，都是friends！
+
+#  这里我把握自己的友链写上，方便别人添加！！
+#  up主: TangShiMei
+#  名称： TangShiMei的小空间
+#  地址： https://tang-blog.leleosd.top/
+#  图标： https://tang-blog.leleosd.top/img/favicon.ico
+#  描述： 想和你重新认识一次，重你叫什么开始。
     
   link_list:
     - name: mccsjs
@@ -27,6 +34,11 @@
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+
+    - name: ZLA 小站
+      link: https://zla.pub/
+      avatar: https://gravatar.zla.app/avatar/me
+      descr: 月亮不抱你，星星会落在你怀里✨🌙
 
 - class_name: 技术支持
   #class_desc:

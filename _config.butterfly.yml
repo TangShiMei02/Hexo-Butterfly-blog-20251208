@@ -1303,6 +1303,22 @@ inject:
     #- <link rel="stylesheet" href="/css/custom-index.css">   #首页文章封面预览图左右交替
     #  - <link rel="stylesheet" href="/css/loader.css">   # 加载动画  坏了可删  文件地址 D:\_mycode\Hexo-Butterfly主题blog\Hexo-Butterfly-blog-20251208\source\css\loader.css
 
+
+    #这一段纯瞎弄的，坏了尽管删👇
+    - |
+      <!-- 百度自动推送 -->
+      <script>
+        (function() {
+          var bp = document.createElement('script');
+          bp.src = 'https://push.zhanzhang.baidu.com/push.js';
+          bp.defer = true;
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+        })();
+      </script>
+     #这一段纯瞎弄的，坏了尽管删👆
+
+
   bottom:
    # - <script src="/img/bg/bg.js"></script>       #只用小新那个图片
     #  - <script src="/img/bg/theme-bg.js"></script>  # ← 负责根据 data-theme 切换背景图  这个是白天黑天不一张图的时候启用的
