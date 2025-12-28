@@ -162,8 +162,8 @@ search:
 # 这个是朋友圈的那些功能  rss 什么的
 # Feed Atom/RSS2
 feed:
-  type: rss2         # 输出 RSS 2.0 格式（也可以是 atom 或 all）
-  path: rss2.xml     # 生成的文件名（默认是 feed.xml，建议自定义）
-  limit: 20          # 最多输出 20 篇文章
-  content: false     # false不输出正文内容（避免乱码、HTML 渲染问题）
-  excerpt: true      # 输出摘要（可选前 100 字符）
+  type: rss2 #rss2               # 输出 RSS 2.0 格式（也可以是 atom 或 all）
+  path: rss2.xml  #atom.xml     # 生成的文件名（默认是 feed.xml，建议自定义）
+  limit: 20                     # 最多输出 20 篇文章
+  content: false                # false不输出正文内容（避免乱码、HTML 渲染问题）
+  excerpt: true                 # 输出摘要（可选前 100 字符）
