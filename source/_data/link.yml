@@ -8,7 +8,7 @@
 #  名称： TangShiMei的小空间
 #  地址： https://tang-blog.leleosd.top/
 #  图标： https://tang-blog.leleosd.top/img/favicon.ico
-#  描述： 想和你重新认识一次，重你叫什么开始。
+#  描述： 想和你重新认识一次，重你叫什么开始
     
   link_list:
     - name: mccsjs
@@ -39,6 +39,11 @@
       link: https://zla.pub/
       avatar: https://gravatar.zla.app/avatar/me
       descr: 月亮不抱你，星星会落在你怀里✨🌙
+
+    - name: haohang
+      link: https://www.shimmerl.top
+      avatar: https://imge.shimmerl.top/mmexport1673241618153.jpg
+      descr: 承诺不值钱, 做个言而有信的人太难了
 
 - class_name: 技术支持
   #class_desc:
