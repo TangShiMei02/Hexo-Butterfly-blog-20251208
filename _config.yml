@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://tangsm.leleosd.top   #这里更改是文章页面末尾的链接
+url: http://tang-blog.leleosd.top   #这里更改是文章页面末尾的链接
 # 永久链接格式
 permalink: posts/:abbrlink/
 # ====== abbrlink 插件配置（必须顶格！）======
