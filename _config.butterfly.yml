@@ -392,10 +392,17 @@ aside:
     # 是否显示公告卡片
     enable: true
     # 公告内容
-    content: 
-      - 欢迎大家来到这个小破“绽”！
-      - Ctrl+Shift+R 清除页面缓存刷新网页，就可以模拟游客进入站点时的加载速度。
-      - <a href="https://tangsm.leleosd.top/" target="_blank">这里是我的个人主页</a>
+    content: >-
+      <div id="announcement" class="card-widget">
+        <div class="item-headline">
+        </div>
+        <div class="announcement-body">
+          <h3>欢迎来到这个小破“绽”！</h3>
+          <p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> 清除缓存可模拟游客首次加载速度。</p>
+          <a class="btn" href="https://tangsm.leleosd.top/" target="_blank">点击👆前往我的个人主页</a>
+        </div>
+      </div>  
+
 
   card_recent_post:
     # 是否显示最近文章卡片
@@ -1300,11 +1307,12 @@ css_prefix: true
 # 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
-    #- <link rel="stylesheet" href="/css/custom.css">
+    - <link rel="stylesheet" href="/css/custom.css">  # 这个是公告栏插入的css样式 就是 市！
+ 
     # - <link rel="stylesheet" href="/xxx.css">
     #- <link rel="stylesheet" href="/css/custom-index.css">   #首页文章封面预览图左右交替
     #  - <link rel="stylesheet" href="/css/loader.css">   # 加载动画  坏了可删  文件地址 D:\_mycode\Hexo-Butterfly主题blog\Hexo-Butterfly-blog-20251208\source\css\loader.css
-
+  
 
     #这一段纯瞎弄的，坏了尽管删👇
     - |
