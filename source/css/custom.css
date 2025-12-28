@@ -1,0 +1,46 @@
+/* 自制公告卡片 */
+#announcement.card-widget {
+  background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#announcement .item-headline {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+#announcement .announcement-body {
+  padding: 0.8rem 1rem 1rem;
+}
+#announcement h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1.1rem;
+}
+#announcement p {
+  margin: 0 0 0.8rem;
+  line-height: 1.6;
+}
+#announcement kbd {
+  background: rgba(0,0,0,.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+#announcement .btn {
+  display: inline-block;
+  background: rgba(255,255,255,.2);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background .3s;
+}
+#announcement .btn:hover {
+  background: rgba(255,255,255,.35);
+}
+#announcement .announcement-footer {
+  text-align: right;
+  opacity: .7;
+  margin-top: 0.5rem;
+}

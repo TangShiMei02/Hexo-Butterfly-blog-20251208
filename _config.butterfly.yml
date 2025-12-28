@@ -358,6 +358,7 @@ footer:
 aside:
   # 是否启用侧边栏
   enable: true
+
   # 是否默认隐藏侧边栏
   hide: false
   # 是否在右下角显示隐藏侧边栏的按钮
@@ -406,10 +407,10 @@ aside:
     sort_order:
   card_newest_comments:
     # 是否显示最新评论卡片
-    enable: false
+    enable: true
     sort_order:
     # 显示评论数量
-    limit: 6
+    limit: 3
     # 单位：分钟，保存数据到 localStorage
     storage: 10
     # 是否显示头像
