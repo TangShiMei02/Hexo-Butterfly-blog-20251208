@@ -1002,7 +1002,7 @@ preloader:
   # 资源
   # 1. 全屏加载
   # 2. 进度条
-  source: 2
+  source: 1
   # pace 主题 (参见 https://codebyzach.github.io/pace/)
   pace_css_url:
 
