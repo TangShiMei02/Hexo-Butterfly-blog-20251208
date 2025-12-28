@@ -132,6 +132,16 @@ butterfly:
   custom_css:
     - css/custom-every-pages-footer.css
 
+# 又是一个关于收录的扩展把
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
+baidusitemap:
+  path: baidusitemap.xml
+
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
