@@ -935,8 +935,8 @@ site_verification:
   # 示例：
   # - name: google-site-verification
   #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+   - name: baidu-site-verification
+     content: codeva-n2JDEROszn
 
 # --------------------------------------
 # 美化 / 效果
