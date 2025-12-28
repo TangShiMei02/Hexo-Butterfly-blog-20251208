@@ -394,6 +394,7 @@ aside:
     content: 
       - 欢迎大家来到这个小破“绽”！
       - Ctrl+Shift+R 清除页面缓存刷新网页，就可以模拟游客进入站点时的加载速度。
+      - <a href="https://tangsm.leleosd.top/" target="_blank">这里是我的个人主页</a>
 
   card_recent_post:
     # 是否显示最近文章卡片
