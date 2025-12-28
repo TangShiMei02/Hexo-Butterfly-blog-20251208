@@ -51,7 +51,7 @@
 
     - name: GitHub
       link: https://github.com/
-      avatar: https://cdn.magicalapk.com/square/9496338369921456.jpg  #https://github.githubassets.com/favicons/favicon.png
+      avatar: https://github.githubassets.com/favicons/favicon.png  #https://cdn.magicalapk.com/square/9496338369921456.jpg  
       descr: 全球最大的代码托管平台
 
     - name: Hexo 官网
