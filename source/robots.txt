@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /fonts/
+Disallow: /search.xml
+
+Sitemap: https://tang-blog.leleosd.top/sitemap.xml
+Sitemap: https://tang-blog.leleosd.top/baidusitemap.xml
