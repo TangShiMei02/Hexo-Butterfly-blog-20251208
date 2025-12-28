@@ -27,6 +27,7 @@ menu:
     番剧: /anime/ || fas fa-heart
   社交||fas fa-user-friends:
     留言板: /comments/ || fas fa-envelope-open
+    朋友圈: /
     友链: /link/ || fas fa-link
   说说: /artitalk/ || fas fa-comment
   关于: /about/ || fas fa-heart
