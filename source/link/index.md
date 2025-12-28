@@ -2,7 +2,7 @@
 title: 友链
 date: 2025-12-09 13:24:34
 type: link
-random: true
+random: false
 comments: true
 top_img: transparent
 ---
