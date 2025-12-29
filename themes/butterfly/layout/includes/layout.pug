@@ -1,6 +1,5 @@
 - var globalPageType = getPageType(page, is_home)
 - var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
-- page.aside = globalPageType === 'archive' ? theme.aside.display.archive: globalPageType === 'category' ? theme.aside.display.category : globalPageType === 'tag' ? theme.aside.display.tag : page.aside
 - var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
 - var pageType = globalPageType === 'post' ? 'post' : 'page'
 - pageType = page.type ? pageType + ' type-' + page.type : pageType
@@ -9,6 +8,9 @@ doctype html
 html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
   head
     include ./head.pug
+    // 51.LA 统计
+    script(charset='UTF-8' id='LA_COLLECT' src='//sdk.51.la/js-sdk-pro.min.js')
+    script LA.init({id:"3OX99cmwfJF0cKWg",ck:"3OX99cmwfJF0cKWg"})
   body
     !=partial('includes/loading/index', {}, {cache: true})
 
