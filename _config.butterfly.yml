@@ -417,10 +417,9 @@ aside:
       text: 来关注我吧！
       # 按钮链接
       link: https://github.com/TangShiMei02
+ 
   card_announcement:
-    # 是否显示公告卡片
     enable: true
-    # 公告内容
     content: >-
       <div id="announcement" class="card-widget">
         <div class="item-headline">
@@ -429,8 +428,34 @@ aside:
           <h3>欢迎来到这个小破“绽”！</h3>
           <p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> 清除缓存可模拟游客首次加载速度。</p>
           <a class="btn" href="https://tangsm.leleosd.top/" target="_blank">👉点击前往我的个人主页👈</a>
+
+          <!-- 站点数据按钮 -->
+          <div style="text-align: center; margin-top: 12px;">
+            <a class="btn data-btn" href="https://v6.51.la/s/u3x5gMEEBBHJpo6" target="_blank" rel="noopener">
+              <i class="fas fa-chart-pie"></i> 📊 站点数据
+            </a>
+          </div>
         </div>
-      </div>  
+      </div>
+
+        <!-- 仅这张卡片内的按钮样式 -->
+        <style>
+          .data-btn {
+            background: rgba(30,136,229,.85);
+            color: var(--font-color) !important;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            transition: transform .2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+          }
+          .data-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(118, 75, 162, .35);
+          }
+        </style> 
 
 
   card_recent_post:
