@@ -30,7 +30,7 @@ menu:
     朋友圈: /friends/ || fas fa-link
     友链: /link/ || fas fa-link
   说说: /artitalk/ || fas fa-comment
-  关于: /about/ || fas fa-heart
+  关于: /about/ || fas fa-info-circle
 
 # --------------------------------------
 # 代码块设置
