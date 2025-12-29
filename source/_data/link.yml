@@ -9,6 +9,7 @@
 #  地址： https://tang-blog.leleosd.top/
 #  图标： https://tang-blog.leleosd.top/img/favicon.ico
 #  描述： 想和你重新认识一次，重你叫什么开始
+#  RSS订阅链接: https://tang-blog.leleosd.top/rss2.xml
     
   link_list:
     - name: mccsjs
@@ -51,6 +52,11 @@
       descr: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
       #siteshot: https://blog.liushen.fun/info/siteshot.jpg
       #atom(options): https://blog.liushen.fun/atom.xml
+
+    - name: 往日信笺
+      link: https://www.xingmail.cn/
+      avatar: https://www.xingmail.cn/favicon.ico
+      #descr: 
 
 - class_name: 技术支持
   #class_desc:
