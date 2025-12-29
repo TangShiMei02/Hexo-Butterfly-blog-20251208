@@ -337,18 +337,46 @@ noticeOutdate:
 footer:
   # 页脚导航栏配置
   nav:
+    - width: 2
+      content:
+        - title: 猜猜
+          item:
+            - title: 闲言碎语
+              url: /artitalk/
+            - title: 留言板
+              url: /comments/
+            - title: 好看的照片
+              url: /gallery/
+            - title: 友链
+              url: /links/
+
+    - width: 1
+      content:
+        - title: 框架
+          item:
+            - title: Hexo
+              url: https://hexo.io/zh-cn/
+            - title: Butterfly
+              url: https://butterfly.js.org/
+
+  作者: TangShiMei
+  链接: https://butterfly.js.org/posts/4aa8abbe/
+  主题: Butterfly
+ 
+ 
+
 
 
   owner: 
     # 是否启用所有者显示
     enable: true
     # 网站创建年份
-    since: 2025/12
+    since: 2025
   # 自定义文本
   custom_text: 欢迎来到我的小空间，很高兴见到你们啊！
   # 主题和框架的版权声明
   copyright:
-    enable: true
+    enable: false
     # 显示版本号
     version: false
 
@@ -1024,7 +1052,7 @@ display_mode: light
 # 美化文章内容的配置   美化显示
 beautify:
   # 是否启用美化
-  enable: post
+  enable: true
   # 指定美化的范围 (site 或 post)
   field: site
   # 指定标题前缀图标，如 '\f0c1'
@@ -1303,9 +1331,6 @@ css_prefix: true
 
 
 
-
-# Inject
-# 插入代码到 head（在 '</head>' 标签之前）和底部（在 '</body>' 标签之前）
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">  # 这个是公告栏插入的css样式 就是 市！
@@ -1329,7 +1354,12 @@ inject:
       </script>
      #这一段纯瞎弄的，坏了尽管删👆
 
+    # 51.LA 统计代码（免费版）
+    - |
+      <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+      <script>LA.init({id:"3ox99cmwfJF0cKWg",ck:"3ox99cmwfJF0cKWg"})</script>
 
+      
   bottom:
    # - <script src="/img/bg/bg.js"></script>       #只用小新那个图片
     #  - <script src="/img/bg/theme-bg.js"></script>  # ← 负责根据 data-theme 切换背景图  这个是白天黑天不一张图的时候启用的
