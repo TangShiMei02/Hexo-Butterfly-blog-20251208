@@ -26,7 +26,6 @@ menu:
     电影: /movies/ || fas fa-video
     番剧: /anime/ || fas fa-heart
   社交||fas fa-user-friends:
-    open: false
     留言板: /comments/ || fas fa-envelope-open
     朋友圈: /friends/ || fas fa-link
     友链: /link/ || fas fa-link
