@@ -403,6 +403,8 @@ aside:
     tag: true
     # 分类页面是否显示侧边栏
     category: true
+    # 留言板页面是否显示侧边栏
+    
   card_author:
     # 是否显示作者信息卡片
     enable: true
@@ -1385,7 +1387,7 @@ inject:
     #  - <script src="/img/bg/theme-bg.js"></script>  # ← 负责根据 data-theme 切换背景图  这个是白天黑天不一张图的时候启用的
     - <script src="/js/day-night-transition.js"></script>     #  ← 负责太阳/月亮动画  白天黑夜过度动画 文件在themes/butterfly/source/js/day-night-transition.js
     #  - <script src="/js/loader.js"></script>   #  加载动画，坏了可删    文件地址D:\_mycode\Hexo-Butterfly主题blog\Hexo-Butterfly-blog-20251208\source\js\loader.js
-
+    - <script data-pjax src="/js/smoothscroll.min.js"></script>  # 👈 这个是sunboy的页面丝滑的js，我抄的他的。丝滑滚动效果成功实现。   文件地址 D:\_mycode\Hexo-Butterfly主题blog\Hexo-Butterfly-blog-20251208\source\js\smoothscroll.min.js
     # 推荐：将统计代码放在 <body> 底部
     #- <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     #- <script>LA.init({id:"3OX99cmwfJF0cKWg",ck:"3OX99cmwfJF0cKWg"})</script>
