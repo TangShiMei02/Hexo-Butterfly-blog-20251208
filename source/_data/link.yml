@@ -3,13 +3,12 @@
     - 这里是交到的friends！！
     - 不分先后，都是friends！
 
-#  这里我把握自己的友链写上，方便别人添加！！
-#  up主: TangShiMei
-#  名称： TangShiMei的小空间
-#  地址： https://tang-blog.leleosd.top/
-#  图标： https://tang-blog.leleosd.top/img/favicon.ico
-#  描述： 想和你重新认识一次，重你叫什么开始
-#  RSS订阅链接: https://tang-blog.leleosd.top/rss2.xml
+#这里我把握自己的友链写上，方便别人添加！！
+#名称： TangShiMei的小空间
+#地址： https://tang-blog.leleosd.top/
+#图标： https://tang-blog.leleosd.top/img/favicon.ico
+#描述： 想和你重新认识一次，从你叫什么开始
+#RSS: https://tang-blog.leleosd.top/rss2.xml
     
   link_list:
     - name: mccsjs
@@ -57,6 +56,13 @@
       link: https://www.xingmail.cn/
       avatar: https://www.xingmail.cn/favicon.ico
       #descr: 
+
+    - name: Sun Boy's Blog
+      link: https://www.sunboy.ltd/
+      avatar: https://cfbed.sunboy.ltd/file/1757744380074_about.jpg
+      descr: 一个不有趣的网站
+      #siteshot: https://cfbed.sunboy.ltd/file/dhBCVwHf.jpg
+      #RSS: https://www.sunboy.ltd/atom.xml
 
 - class_name: 技术支持
   #class_desc:
