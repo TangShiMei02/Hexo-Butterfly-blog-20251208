@@ -350,18 +350,18 @@ footer:
             - title: 友链
               url: /links/
 
-    - width: 1
-      content:
-        - title: 框架
-          item:
-            - title: Hexo
-              url: https://hexo.io/zh-cn/
-            - title: Butterfly
-              url: https://butterfly.js.org/
+    #- width: 1
+    #  content:
+    #    - title: 框架
+    #      item:
+    #        - title: Hexo
+    #          url: https://hexo.io/zh-cn/
+    #        - title: Butterfly
+    #          url: https://butterfly.js.org/
 
-  作者: TangShiMei
-  链接: https://butterfly.js.org/posts/4aa8abbe/
-  主题: Butterfly
+  #作者: TangShiMei
+  #链接: https://butterfly.js.org/posts/4aa8abbe/
+  #主题: Butterfly
  
  
 
@@ -376,9 +376,9 @@ footer:
   custom_text: 欢迎来到我的小空间，很高兴见到你们啊！
   # 主题和框架的版权声明
   copyright:
-    enable: false
+    enable: true
     # 显示版本号
-    version: false
+    version: true
 
 # --------------------------------------
 # 侧边栏设置
