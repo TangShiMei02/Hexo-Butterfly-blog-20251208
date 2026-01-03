@@ -1,5 +1,5 @@
 ---
-title: friend-circle
+title: 朋友圈
 date: 2026-01-03 17:03:53
 top_img: transparent
 comments: false
