@@ -4,7 +4,17 @@ top_img: transparent
 comments: false
 ---
 
-> # up主正在摸鱼。
 
-是在hexo根目录的_config.yml下末尾改的rss啥的。
-应该是https://tang-blog.leleosd.top/rss2.xml
+<div id="friend-circle-lite-root"></div>
+<script>
+    if (typeof UserConfig === 'undefined') {
+        var UserConfig = {
+            private_api_url: 'https://tangshimei02.github.io/Friend-Circle-Lite-20260103/',
+            page_turning_number: 20,
+            error_img: 'https://pic.imgdb.cn/item/6695daa4d9c307b7e953ee3d.jpg',
+        }
+    }
+</script>
+
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.css">
+<script src="https://fastly.jsdelivr.net/gh/willow-god/Friend-Circle-Lite/main/fclite.min.js"></script>
