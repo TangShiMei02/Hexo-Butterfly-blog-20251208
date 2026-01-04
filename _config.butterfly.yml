@@ -20,15 +20,15 @@ menu:
     归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
-  娱乐||fa fa-heartbeat:
-    音乐: /music/ || fas fa-music
-    照片: /gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
-    番剧: /anime/ || fas fa-heart
   社交||fas fa-user-friends:
     留言板: /comments/ || fas fa-envelope-open
     朋友圈: /friend-circle/ || fas fa-link
     友链: /link/ || fas fa-link
+  娱乐||fa fa-heartbeat||hide:
+    音乐: /music/ || fas fa-music
+    照片: /gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+    番剧: /anime/ || fas fa-heart
   说说: /artitalk/ || fas fa-comment
   关于: /about/ || fas fa-info-circle
 
