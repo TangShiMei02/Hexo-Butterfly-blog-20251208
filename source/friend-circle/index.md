@@ -19,7 +19,7 @@ comments: false
 
             // 点击加载更多时，一次最多加载几篇文章，默认20
 
-            page_turning_number: 20,
+            page_turning_number: 21,
 
             // 头像加载失败时，默认头像地址
 
