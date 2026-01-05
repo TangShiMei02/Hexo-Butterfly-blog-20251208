@@ -15,7 +15,7 @@ comments: false
 
             // 填写你的fc Lite地址
 
-            private_api_url: 'https://fcircle.leleosd.top/',
+            private_api_url: 'https://fcircle.lilys.top/',    // https://fcircle.leleosd.top/  这个也是可以用，但是用leleo牢牢地分发的而二级域名需要一个月一解析，太麻烦。
 
             // 点击加载更多时，一次最多加载几篇文章，默认20
 

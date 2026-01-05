@@ -734,7 +734,7 @@ comments:
   
   # Twikoo 配置
   twikoo:
-    envId: https://tsmtwikoo.dpdns.org/                             # 这个是leleosd大佬的分发的二级域名，但是得一个月一环，麻烦，我换成前面这个了。https://tangshimei02.leleosd.top/            #mccsjs大佬弄得是  https://twikoo.leleosd.top/     以后也可以用这个！！
+    envId: https://tsmtwikoo.leleosd.top/ #https://tsmtwikoo.dpdns.org/ 这个是一年可以用，但是IP显示会有问题                            # 这个是leleosd大佬的分发的二级域名，但是得一个月一环，麻烦，我换成前面这个了。https://tsmtwikoo.leleosd.top/            #mccsjs大佬弄得是  https://twikoo.leleosd.top/     以后也可以用这个！！
 
 
     # 开启懒加载（关键！）   #下面这一段坏了就删掉   好像成功了  不要乱删啦！！2025 12 16 22 56

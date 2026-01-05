@@ -12,7 +12,7 @@ top_img: transparent
 new Artitalk({
     appId: 'H4ojodcw6EOIVlBiIjxVHe9U-MdYXbMMI',
     appKey: '9slJ6unfU52i11M0jKhkmWvf',
-    serverURL: 'https://artitalk.leleosd.top', // 国际版留空，国内版填写域名
+    serverURL: 'https://artitalk.lilys.top', // 国际版留空，国内版填写域名
     //avatar: 'https://tang-blog.leleosd.top/img/avatar.jpg',
     // 想用纯色就这样写：
     //color1: '#6dd0f2',
