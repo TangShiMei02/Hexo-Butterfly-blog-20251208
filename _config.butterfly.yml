@@ -429,7 +429,7 @@ aside:
         <div class="announcement-body">
           <h3>欢迎来到这个小破“绽”！</h3>
           <p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> 清除缓存可模拟游客首次加载速度。</p>
-          <a class="btn" href="https://tangsm.leleosd.top/" target="_blank">👉点击前往我的个人主页👈</a>
+          <a class="btn" href="https://tsmei.leleosd.top/" target="_blank">👉点击前往我的个人主页👈</a>
 
           <!-- 站点数据按钮 -->
           <div style="text-align: center; margin-top: 12px;">
@@ -734,7 +734,7 @@ comments:
   
   # Twikoo 配置
   twikoo:
-    envId: https://tangshimei02.leleosd.top/            #mccsjs大佬弄得是  https://twikoo.leleosd.top/     以后也可以用这个！！
+    envId: https://tsmtwikoo.dpdns.org/                             # 这个是leleosd大佬的分发的二级域名，但是得一个月一环，麻烦，我换成前面这个了。https://tangshimei02.leleosd.top/            #mccsjs大佬弄得是  https://twikoo.leleosd.top/     以后也可以用这个！！
 
 
     # 开启懒加载（关键！）   #下面这一段坏了就删掉   好像成功了  不要乱删啦！！2025 12 16 22 56
