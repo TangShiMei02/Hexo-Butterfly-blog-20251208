@@ -470,7 +470,7 @@ aside:
     sort_order:
   card_newest_comments:
     # 是否显示最新评论卡片
-    enable: false
+    enable: true
     sort_order:
     # 显示评论数量
     limit: 5
