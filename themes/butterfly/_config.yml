@@ -551,12 +551,13 @@ wordcount:
 
 # 不蒜子 PV / UV 统计
 busuanzi:
+
   # 网站 UV 统计
-  site_uv: true
+  site_uv: false
   # 网站 PV 统计
-  site_pv: true
+  site_pv: false
   # 页面 PV 统计
-  page_pv: true
+  page_pv: false
 
 # --------------------------------------
 # 数学公式设置
