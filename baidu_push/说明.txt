@@ -1,0 +1,9 @@
+百度站长工具提交的
+
+https://pic-tsmei.leleosd.top/file/default_download_folder/C4gjZQ41.png   
+
+就是在上面这个截图的页面。https://ziyuan.baidu.com/
+
+api提交
+
+curl命令提交，虽然现在我也不是很懂。。2026/1/10  21：03
