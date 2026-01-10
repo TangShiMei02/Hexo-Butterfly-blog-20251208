@@ -660,7 +660,7 @@ twikoo:
   envId:  https://tsmtwikoo.leleosd.top/                             # 这个是leleosd大佬的分发的二级域名，但是得一个月一环，麻烦，我换成前面这个了。https://tsmtwikoo.lilys.top/            #mccsjs大佬弄得是  https://twikoo.leleosd.top/     以后也可以用这个！！
   
   #region:          # 区域
-  visitor: true   # 使用 Twikoo 的访客计数作为页面的访客量
+  #visitor: true   # 使用 Twikoo 的访客计数作为页面的访客量
   #option:          # 其他可选配置
 
 
